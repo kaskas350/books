@@ -46,7 +46,7 @@ if (!empty($arElements) && is_array($arElements))
 		"=ID" => $arElements,
 	);
 	$APPLICATION->IncludeComponent(
-		"users:catalog.top",
+		"bitrix:catalog.top",
 		"template1",
 		array(
 			"IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],

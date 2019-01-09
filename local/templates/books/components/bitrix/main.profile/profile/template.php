@@ -325,7 +325,7 @@ document.getElementById('bx_auth_secure').style.display = 'inline-block';
 
 
 
-    <?if(CSite::InGroup(array(1,6))):?>
+    <?if(CSite::InGroup([1,6])):?>
         <div class="profile-link profile-user-div-link"><a title="<?=GetMessage("USER_SHOW_HIDE")?>" href="javascript:void(0)" onclick="SectionClick('admin')"><?=GetMessage("USER_ADMIN_NOTES")?></a></div>
 
 

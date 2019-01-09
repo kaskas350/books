@@ -4,7 +4,7 @@ $arUrlRewrite=array (
   array (
     'CONDITION' => '#^\\??(.*)#',
     'RULE' => '&$1',
-    'ID' => 'users:catalog.element',
+    'ID' => 'bitrix:catalog.element',
     'PATH' => '/test.php',
     'SORT' => 100,
   ),

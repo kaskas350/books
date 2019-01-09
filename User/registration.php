@@ -2,7 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Регистрация");
 ?><?$APPLICATION->IncludeComponent(
-	"users:system.auth.form",
+	"bitrix:system.auth.form",
 	"template_form_register",
 	Array(
 		"FORGOT_PASSWORD_URL" => "/User",

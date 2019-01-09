@@ -8,7 +8,7 @@ foreach($_REQUEST as $k=>$m)
 }
 
 $APPLICATION->IncludeComponent(
-	"users:catalog.element",
+	"bitrix:catalog.element",
 	"user",
 	Array(
 		"ACTION_VARIABLE" => "action",
